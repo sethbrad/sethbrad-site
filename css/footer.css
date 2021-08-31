@@ -1,0 +1,9 @@
+.footer {
+  width: 100%;
+  bottom: 10px;
+  position: fixed;
+}
+
+.nav-item {
+  padding: 15px;
+}
