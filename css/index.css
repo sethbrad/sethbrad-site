@@ -1,11 +1,11 @@
 .content {
-    background-color: khaki;
-    border: 2px solid black;
-    padding: 10px;
+    background-color: white;
+    border: 2px solid grey;
+    padding: 15px;
 }
 
 body {
-    background-image: linear-gradient(khaki, dodgerblue);
+    background-image: linear-gradient(gold, darkred);
     margin: 20px;
 }
 
