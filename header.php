@@ -40,29 +40,30 @@
 
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-
+    <link href="./css/index.css" rel="stylesheet">
 </head>
 
 <div>
+    <h1>Seth Braddock's Portfolio</h1>
 
-<h1>Seth Braddock's Portfolio</h1>
-
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?action=about">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?action=projects">Projects</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?action=reflection">Reflection</a>
-                </li>
-            </ul>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?page=about">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?page=projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?page=reflection">Reflections</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="<?= $_SERVER['PHP_SELF'] ?>?page=resources">Resources</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-    </div>
-</nav></br>
-
+    </nav></br>
 </div>
