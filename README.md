@@ -1,4 +1,3 @@
 # sethbrad-site
 
-A place to document my education, personal projects, blog posts, etc.
-Currently it's just a porfolio for my professionalism class, but I'll merge in the other stuff in the future.
+Portfolio done as part of a class. Content in here is mostly school-related, but you can find more general information about me in my GitHub Pages site.
